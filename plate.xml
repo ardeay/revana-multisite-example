@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone='yes'?>
+<plate>
+  <ingredients>
+    <templateset name="homepage" name_friendly="Homepage" view="homepage">
+       <fields>
+		    <images name="profile_image" name_friendly="Profile Image"/>
+		    <text name="name" name_friendly="Name"/>
+		    <text name="title" name_friendly="Title"/>
+		    <wysiwyg_basic name="description" name_friendly="Description"/>
+		    <text name="phone_number" name_friendly="Phone Number"/>
+		    <text name="email_address" name_friendly="Email Address"/>
+		    <link name="linkedin" name_friendly="Linkedin"/>
+		</fields>
+		<items>
+			<item link_title="Rep Details" path_part="rep-details">
+				<profile_image><![CDATA[http://images.fedex.com/images/ascend/investorrelations/2008annualreport/photos/overview_photo3.jpg]]></profile_image>
+				<name><![CDATA[Rep Name]]></name>
+				<title><![CDATA[Rep Title]]></title>
+				<description><![CDATA[Test Description]]></description>
+				<phone_number><![CDATA[1-800-555-5555]]></phone_number>
+				<email_address><![CDATA[test@fedex.com]]></email_address>
+				<linkedin><![CDATA[https://www.linkedin.com]]></linkedin>
+			</item>
+		</items>
+    </templateset>
+       
+  </ingredients>
+
+  <clippings>
+    <text name="site_name" name_friendly="Site Name" required="1">
+      <![CDATA[Revana Multisite Example]]>
+    </text>
+    <images name="logo" name_friendly="Site Logo" limit="1" />
+    <text name="footer_text" name_friendly="Footer Text">
+      <![CDATA[Footer text can be updated in Content Clippings]]>
+    </text>
+  </clippings>
+
+  <head>
+    <doctype>html5</doctype>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"/>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"/>
+
+  </head>
+  <!--
+  <settings>
+    <setting category="developer" name="parsley_2_enabled" label="Parsley 2?" type="checkbox"  options="0,1"><![CDATA[1]]></setting>
+    <setting category="developer" name="parsley_2_enabled_for_dev" label="Parsley 2 For Stage Dev" type="checkbox" options="0,1"><![CDATA[1]]></setting>
+  </settings>
+  -->
+  
+</plate>
