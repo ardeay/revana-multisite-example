@@ -1,21 +1,10 @@
-<!-- code here do stan -->
+<!-- JSON import feed  -->
+<h5>Reddit Fedex Feed</h5>
+<div class="list-group" id="json-feed"></div>	
 
-<ul id="json-feed" ></ul>
+
 <script>
-	
-	/**
-	fetch('https://www.reddit.com/r/fedex.json').then(function(response){
-		//console.log(response.body);
-		//console.log(response.json());
-		//console.log(response.text());
-		//console.log(response.blob());
-		//console.log(response.arrayBuffer());
-		
-		return response.json();
-	}).then(function(data){
-		console.log(data);
-	})
-	**/
+
 	$.ajax({
 		url:'https://www.reddit.com/r/fedex.json',
 		dataType: 'JSON',
@@ -26,7 +15,7 @@
 			for (i= 0; i < 4 ; i++){
 				console.log(data.data.children[i]);
 				var obj = data.data.children[i];
-				$('#json-feed').append('<li><h3>'+obj.data.title+'</h3><p>'+obj.data.selftext+'... <a href="'+obj.data.url+'" >Read More</a></p></li>')
+				$('#json-feed').append('<a class="list-group-item" href="'+obj.data.url+'" ><h4 class="list-group-item-heading">'+obj.data.title+'</h4><p class="list-group-item-text">'+obj.data.selftext+'</p></a>')
 			}
 		}
 		
