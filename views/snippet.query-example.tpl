@@ -9,6 +9,6 @@
 
 <div class="btn-group" role="group">
   <a class="btn btn-default" href="/">Default</button>
-  <a class="btn btn-default" href="/?q=verizon">Verizon</button>
-  <a class="btn btn-default" href="/?q=ford">Ford</button>
+  <a class="btn btn-default" href="/q=verizon">Verizon</button>
+  <a class="btn btn-default" href="/q=ford">Ford</button>
 </div>
