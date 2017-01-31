@@ -5,3 +5,10 @@
 {{ else }}
 <img src="https://www.hikashop.com/images/shipping/FedEx.jpg" class="img-responsive">
 {{end-if}}
+
+
+<div class="btn-group" role="group">
+  <a class="btn btn-default" href="/">Default</button>
+  <a class="btn btn-default" href="/?q=verizon">Verizon</button>
+  <a class="btn btn-default" href="/?q=ford">Ford</button>
+</div>
