@@ -12,7 +12,7 @@
 		    <link name="linkedin" name_friendly="Linkedin"/>
 		</fields>
 		<items>
-			<item link_title="Rep Details" path_part="rep-details">
+			<item link_title="Homepage" path_part="zesty_home">
 				<profile_image><![CDATA[http://images.fedex.com/images/ascend/investorrelations/2008annualreport/photos/overview_photo3.jpg]]></profile_image>
 				<name><![CDATA[Rep Name]]></name>
 				<title><![CDATA[Rep Title]]></title>
