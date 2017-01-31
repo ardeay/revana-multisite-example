@@ -1,5 +1,5 @@
 <!-- JSON import feed  -->
-<h5>Reddit Fedex Feed</h5>
+<h5>Live RSS Feed from Reddit FedEx</h5>
 <div class="list-group" id="json-feed"></div>	
 
 

@@ -68,6 +68,8 @@
 <div class="row" >
 	<div class="col-md-6" >
 		{{ include blog-homepage-module }}
+		
+		{{include query-example}}
 	</div>
 	<div class="col-md-6" >
 		{{include fedex-rss-blocks}}
